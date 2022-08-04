@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "freezer_products",
+            "request": "launch",
+            "type": "dart",
+            "program": "/${workspaceFolder}/lib/main.dart",
+            "flutterMode": "debug",
+            "args": [
+                "--observatory-port=8888",
+                "--dart-define=ABLY_API_KEY=n7RG0Q.d84DHw:qjjVylep9Owge7OuBWntDWNVWJkroaxOBBa4IEvxsj8",
+            ],
+        },
+        {
+            "name": "freezer_products (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "freezer_products (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
