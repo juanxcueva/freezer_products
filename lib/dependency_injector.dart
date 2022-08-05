@@ -13,7 +13,9 @@ import 'package:freezer_products/app/domain/repository/user_repository.dart';
 void injectDependencies() {
   //var´s
 
-  String url = "https://productosmicroapi.herokuapp.com/";
+  // String url = "https://productosmicroapi.herokuapp.com/";
+  String url = "http://44.205.153.171:8080/";
+
 
   Dio _dio = Dio(BaseOptions(baseUrl: url));
   (_dio.httpClientAdapter as DefaultHttpClientAdapter).onHttpClientCreate =
